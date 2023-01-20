@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <title>EncriptadorDgak</title>
+    <script type="text/javascript" src="Script.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <div class="logo">
+            <img class="logoimg" src="Diseño/Logo A.png">
+            <img class="marcapersonal" src="Diseño/Dgaktwr.png">
+            <img class="github" src="Diseño/github.png">
+        </div>
+
+        <div class="left">
+            <input class="text-input"  id="inputtexto" type="text" placeholder="Ingrese el texto aqui">
+        </div>
+
+        <div class="rigth">
+            <img class="imgmuñeco"  id = "imgmuñeco" src="Diseño/Muñeco.png">
+            <h1 class="textmuñeco1" id = "textmuñeco1">Ningún mensaje fue encontrado</h1>
+            <textarea class="textmuñeco2" id = "textmuñeco2">Ingresa el texto que desees encriptar o desencriptar.</textarea>
+            <button type="button" id="btncopiar" name="button" onclick="btncopiar()">Copiar</button>
+        </div>
+
+        <div class="buttons">
+            <p class="informacionleft">&#128712 Solo letras minusculas y sin acentos</p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
